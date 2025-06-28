@@ -72,7 +72,7 @@ const TaskManager = () => {
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-      <h2 className="text-2xl font-bold mb-6">Task Manager</h2>
+      {/* <h2 className="text-2xl font-bold mb-6">Task Manager</h2> */}
 
       {/* Task input form */}
       <form onSubmit={handleSubmit} className="mb-6">
@@ -91,7 +91,7 @@ const TaskManager = () => {
       </form>
 
       {/* Filter buttons */}
-      <div className="flex gap-2 mb-4">
+      <div className="flex gap-2 my-8 mt-10">
         <Button
           variant={filter === 'all' ? 'primary' : 'secondary'}
           size="sm"
